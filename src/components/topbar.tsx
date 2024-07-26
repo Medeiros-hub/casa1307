@@ -11,7 +11,7 @@ import { Menu as MenIcon } from 'lucide-react'
 export function Topbar() {
   return (
     <>
-      <div className="flex w-full justify-between gap-9 px-16 py-6 lg:justify-evenly">
+      <div className="flex w-full items-center justify-between gap-9 px-16 py-6 lg:justify-evenly">
         <div className="flex lg:hidden">
           <Menu>
             <MenuButton
@@ -25,13 +25,17 @@ export function Topbar() {
               _hover={{ bg: 'white', color: 'black' }}
             />
             <MenuList color="black" border="white">
-              <MenuItem className="bg-red-950 text-red-900">
-                Quem somos
-              </MenuItem>
+              <MenuItem>Quem somos</MenuItem>
               <MenuDivider border="1px solid gray" />
               <MenuItem>Orçamento</MenuItem>
               <MenuDivider border="1px solid gray" />
               <MenuItem>Ser um parceiro</MenuItem>
+              <MenuDivider border="1px solid gray" />
+              <MenuItem>
+                <button className="bg-mauve-secondary rounded-lg px-7 py-3 font-medium text-white shadow-shadowButton">
+                  Comece de graça
+                </button>
+              </MenuItem>
             </MenuList>
           </Menu>
         </div>
@@ -44,7 +48,7 @@ export function Topbar() {
           <span>Ser um parceiro</span>
         </div>
 
-        <button className="bg-mauve-secondary rounded-lg px-7 py-3 font-medium shadow-shadowButton">
+        <button className="bg-mauve-secondary hidden rounded-lg px-7 py-3 font-medium shadow-shadowButton sm:block">
           Comece de graça
         </button>
       </div>
