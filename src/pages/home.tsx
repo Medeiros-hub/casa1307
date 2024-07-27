@@ -5,7 +5,7 @@ export function Home() {
     <div className="w-full space-y-16">
       <Topbar />
 
-      <section className="bg-bg-sm md:bg-bg-large mx-16 rounded-2xl bg-cover bg-no-repeat md:bg-center">
+      <section className="mx-16 rounded-2xl bg-bg-sm bg-cover bg-no-repeat md:bg-bg-large md:bg-center">
         <div className="flex flex-col justify-between gap-12 px-8 pb-7 pt-3 md:flex-row md:px-16 md:pb-14 md:pt-6">
           <div className="space-y-8 md:w-5/12">
             <div className="font-montaga text-4xl leading-none md:text-6xl">
