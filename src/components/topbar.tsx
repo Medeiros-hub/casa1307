@@ -32,7 +32,7 @@ export function Topbar() {
               <MenuItem>Ser um parceiro</MenuItem>
               <MenuDivider border="1px solid gray" />
               <MenuItem>
-                <button className="bg-mauve-secondary rounded-lg px-7 py-3 font-medium text-white shadow-shadowButton">
+                <button className="rounded-lg bg-mauve-secondary px-7 py-3 font-medium text-white shadow-shadowButton">
                   Comece de graça
                 </button>
               </MenuItem>
@@ -48,7 +48,7 @@ export function Topbar() {
           <span>Ser um parceiro</span>
         </div>
 
-        <button className="bg-mauve-secondary hidden rounded-lg px-7 py-3 font-medium shadow-shadowButton sm:block">
+        <button className="hidden rounded-lg bg-mauve-secondary px-7 py-3 font-medium shadow-shadowButton sm:block">
           Comece de graça
         </button>
       </div>

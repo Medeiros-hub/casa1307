@@ -14,7 +14,8 @@ export default {
       },
       colors: {
         black: '#1E1E1E',
-        'mauve-primary': '#1A0010',
+        'mauve-bg': '#1A0010',
+        'mauve-primary': '#4D002F',
         'mauve-secondary': '#AA1563',
         'mint-500': '#FDC704',
       },
