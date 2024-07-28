@@ -1,6 +1,7 @@
 import { BadgePlus, Crown, LayoutDashboard, Star } from 'lucide-react'
 
 import { DescriptionCard } from '../components/description-card'
+import { Footer } from '../components/footer'
 import { Topbar } from '../components/topbar'
 
 export function Home() {
@@ -8,7 +9,7 @@ export function Home() {
     <div className="w-full space-y-20">
       <Topbar />
 
-      <section className="mx-16 rounded-2xl bg-bg-sm bg-cover bg-no-repeat md:bg-bg-large md:bg-center">
+      <section className="mx-11 rounded-2xl bg-bg-sm bg-cover bg-no-repeat md:mx-16 md:bg-bg-large md:bg-center">
         <div className="flex flex-col justify-between gap-12 px-8 pb-7 pt-3 md:flex-row md:px-16 md:pb-14 md:pt-6">
           <div className="space-y-8 md:w-5/12">
             <div className="font-montaga text-4xl leading-none md:text-6xl">
@@ -36,7 +37,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className="mx-16 flex justify-between gap-28">
+      <section className="mx-11 flex justify-between gap-28 md:mx-16">
         <div className="max-w-[41.5rem] space-y-14">
           <h1 className="text-3xl md:text-5xl">
             Somos um lar acolhedor para o sucesso da sua empresa!
@@ -60,7 +61,7 @@ export function Home() {
             <DescriptionCard
               Icon={Crown}
               title="Nobre"
-              description="Nos destacmos pela sua excelência e sofisticação, proporcionando um ambiente de prestígio para todos os seus clientes."
+              description="Nos destacamos pela sua excelência e sofisticação, proporcionando um ambiente de prestígio para todos os seus clientes."
             />
           </div>
         </div>
@@ -73,7 +74,9 @@ export function Home() {
         </div>
       </section>
 
-      <section className="mx-16 h-[40.625rem] self-center rounded-2xl bg-bg-sm bg-cover bg-no-repeat sm:bg-bg-xl"></section>
+      <section className="mx-11 h-[40.625rem] self-center rounded-2xl bg-bg-sm bg-cover bg-no-repeat sm:bg-bg-xl md:mx-16"></section>
+
+      <Footer />
     </div>
   )
 }
