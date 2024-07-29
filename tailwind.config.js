@@ -24,6 +24,32 @@ export default {
         'bg-large': "url('/bg-large.png')",
         'bg-xl': "url('/bg-xl.png')",
       },
+      keyframes: {
+        slideOutLeft: {
+          '0%': {
+            transform: 'translateX(0)',
+            opacity: 1,
+          },
+          '100%': {
+            transform: 'translateX(-10%)',
+            opacity: 0,
+          },
+        },
+        slideInRight: {
+          '0%': {
+            transform: 'translateX(10%)',
+            opacity: 0,
+          },
+          '100%': {
+            transform: 'translateX(0)',
+            opacity: 1,
+          },
+        },
+      },
+      animation: {
+        'slide-out-left': 'slideOutLeft 1s forwards',
+        'slide-in-right': 'slideInRight 1s forwards',
+      },
     },
   },
   plugins: [],

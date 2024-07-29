@@ -1,5 +1,6 @@
 import { BadgePlus, Crown, LayoutDashboard, Star } from 'lucide-react'
 
+import { AnimatedText } from '../components/animated-text'
 import { DescriptionCard } from '../components/description-card'
 import { Footer } from '../components/footer'
 import { Topbar } from '../components/topbar'
@@ -16,7 +17,7 @@ export function Home() {
               <h1 className="text-wrap md:text-nowrap">
                 Bem vindo a
                 <br />
-                <span>Casa 1307</span>
+                <AnimatedText />
               </h1>
             </div>
             <div className="space-y-5 text-wrap text-justify text-sm md:text-base">
