@@ -14,11 +14,11 @@ export function DescriptionCard({
   return (
     <div className="w-96 min-w-[15.3125rem] space-y-3 sm:w-auto sm:flex-1">
       <div className="w-fit rounded-md bg-mauve-primary p-4">
-        {Icon && <Icon className="size-8 text-mauve-secondary" />}
+        {Icon && <Icon className="size-8 text-mint-500" />}
       </div>
       <div className="space-y-2">
         <h2 className="text-2xl font-semibold leading-7">{title}</h2>
-        <p className="text-justify leading-6">{description}</p>
+        <p className="leading-6">{description}</p>
       </div>
     </div>
   )
